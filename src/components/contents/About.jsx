@@ -22,6 +22,15 @@ const Rules = [
   "Ranked 61st among the top 150 engineering institute in India by the Times Engineering Institute Ranking survey 2020",
 ];
 
+const IQAC = [
+  "Ensure clarity and focus on quality enhancement of the institutional curricular and co-curricular activities",
+  "Assure quality culture among all stakeholders",
+  "Ensure enhancement and coordination among various activities of the Institution with virtuous practices",
+  "Provide a forum for decision-making to improve institutional functioning",
+  "Act as a dynamic system for continuous quality improvement",
+  "Build an organized methodology of documentation and dissemination",
+];
+
 const Institutions = [
   "R.M.K Engineering College",
   "R.M.D Engineering College",
@@ -40,7 +49,7 @@ const About = () => {
           <h1 className="font-bold text-3xl flex justify-center text-violet-700">
             About The Institution
           </h1>
-          <p className="text-lg">
+          <p className="text-xl font-semibold">
             R.M.K. College of Engineering and Technology, an Autonomous
             Institution was established in the year 2008 by Lakshmikanthammal
             Educational Trust, to render philanthropic and educational service
@@ -57,10 +66,37 @@ const About = () => {
       <div className="py-10 flex justify-center">
         <div className="w-[90%] p-2 flex flex-col gap-4 border border-none">
           <h1 className="font-bold text-3xl flex justify-center  text-violet-700">
+            About IQAC
+          </h1>
+          <p className="text-xl font-semibold">
+            Internal Quality Assurance Cell (IQAC) is established in our
+            Institute as a quality sustenance measure. Since quality enhancement
+            is a continuous process, the IQAC has become a part of the
+            Institution’s system and works towards the realisation of the goals
+            of quality enhancement and sustenance. The prime task of the IQAC is
+            to develop a system for conscious, consistent and catalytic
+            improvement in the overall performance of our Institution. The
+            Institution channelizes its efforts and measures towards promoting
+            holistic academic excellence including the peer committee
+            recommendations
+          </p>
+          <p className="text-xl font-semibold">
+            IQAC evolves mechanisms and procedures to
+          </p>
+          <ul className="list-disc text-xl font-semibold px-5">
+            {IQAC.map((obj, index) => (
+              <li key={`${obj[0]}-${obj[10]}-${index}`}>{obj}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
+      <div className="py-10 flex justify-center">
+        <div className="w-[90%] p-2 flex flex-col gap-4 border border-none">
+          <h1 className="font-bold text-3xl flex justify-center  text-violet-700">
             The following are the recognitions and achievements of our
             Institution
           </h1>
-          <ul className="list-disc text-lg">
+          <ul className="list-disc text-xl font-semibold px-5">
             {Rules.map((obj, index) => (
               <li key={`${obj[0]}-${obj[10]}-${index}`}>{obj}</li>
             ))}
@@ -72,7 +108,7 @@ const About = () => {
           <h1 className="font-bold text-3xl flex justify-center  text-violet-700">
             RMK Group of Institutions
           </h1>
-          <ul className="list-decimal text-lg mx-auto">
+          <ul className="list-decimal text-xl font-semibold mx-auto">
             {Institutions.map((obj, index) => (
               <li key={`${obj[0]}-${obj[10]}-${index}`}>{obj}</li>
             ))}

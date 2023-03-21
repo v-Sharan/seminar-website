@@ -37,7 +37,7 @@ const Committe = () => {
   return (
     <div className="p-10">
       <div className="py-5">
-        <h1 className="font-bold text-3xl  text-violet-700">Chief Patrons:</h1>
+        <h1 className="font-bold text-3xl  text-violet-700">Chief Patrons</h1>
         <ul className="px-10 list-disc py-2">
           {chiefPatrons.map((item, index) => (
             <li key={`${item}-${index}`}>{item}</li>
@@ -45,7 +45,7 @@ const Committe = () => {
         </ul>
       </div>
       <div className="py-5">
-        <h1 className="font-bold text-3xl  text-violet-700">Patrons:</h1>
+        <h1 className="font-bold text-3xl  text-violet-700">Patrons</h1>
         <ul className="px-10 list-disc py-2">
           {Patrons.map((item, index) => (
             <li key={`${item}-${index}`}>{item}</li>
@@ -54,7 +54,7 @@ const Committe = () => {
       </div>
       <div className="py-5">
         <h1 className="font-bold text-3xl  text-violet-700">
-          Seminar Coordinators:
+          Seminar Coordinators
         </h1>
         <ul className="px-10 py-2 list-disc">
           {Coordinators.map((item, index) => (
@@ -64,7 +64,7 @@ const Committe = () => {
       </div>
       <div className="py-5">
         <h1 className="font-bold text-3xl  text-violet-700">
-          Seminar Co-Coordinators:
+          Seminar Co-Coordinators
         </h1>
         <ul className="px-10 py-2 list-disc">
           {Co_Coordinators.map((item, index) => (

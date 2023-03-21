@@ -20,6 +20,33 @@ const Speaker = [
       "https://res.cloudinary.com/dfje97i0k/image/upload/v1678706709/Sethuraman_qctuww.jpg",
   },
   {
+    name: "Mr. Ravi Kumar Varma",
+    title: "Project based Learning in Education and Learning New Technologies",
+    // department: "Professor Dept. of Computer Science & Applications",
+    institute: "Scientist, Space Applications Centre (SAC),ISRO, Ahmedabad.",
+    photo:
+    "https://res.cloudinary.com/dfje97i0k/image/upload/c_scale,h_400,w_400/v1679368726/crop-Isro_q0w6nw.jpg",
+  },
+  {
+    name: "Dr.K.Ramar",
+    title:
+    "Enriching Research Methodologies, Effective Journal Publications and Proposal Drafting",
+    department: "Principal",
+    institute:
+    "R.M.K. College of Engieering and Technology, Puduvoyal, Thiruvallur",
+    photo:
+    "https://res.cloudinary.com/dfje97i0k/image/upload/c_scale,h_564,w_557/v1678706710/RAMAR_mo2eup.png",
+  },
+  {
+    name: "Dr.K.Mourougayane",
+    title: "Recent Research Trends",
+    department:
+    "Programme Director (Projects) Scientist F, HoD DSP & EP Divisions,",
+    institute: "SAMEER - Centre for Electromagnetics, Chennai",
+    photo:
+    "https://res.cloudinary.com/dfje97i0k/image/upload/v1678706709/Mourougayane_htbipa.jpg",
+  },
+  {
     name: "Dr. S Renukadevi",
     title: "Engineering Pedagogy and Psychology",
     department: "Professor",
@@ -27,33 +54,6 @@ const Speaker = [
       "National Institute of Technical Teachers Training and Research, Chennai",
     photo:
       "https://res.cloudinary.com/dfje97i0k/image/upload/c_scale,h_564,w_557/v1678706709/Renukadevi_aua2fx.jpg",
-  },
-  {
-    name: "Dr.K.Ramar",
-    title:
-      "Enriching Research Methodologies, Effective Journal Publications and Proposal Drafting",
-    department: "Principal",
-    institute:
-      "R.M.K. College of Engieering and Technology, Puduvoyal, Thiruvallur",
-    photo:
-      "https://res.cloudinary.com/dfje97i0k/image/upload/c_scale,h_564,w_557/v1678706710/RAMAR_mo2eup.png",
-  },
-  {
-    name: "Dr.K.Mourougayane",
-    title: "Recent Research Trends",
-    department:
-      "Programme Director (Projects) Scientist F, HoD DSP & EP Divisions,",
-    institute: "SAMEER - Centre for Electromagnetics, Chennai",
-    photo:
-      "https://res.cloudinary.com/dfje97i0k/image/upload/v1678706709/Mourougayane_htbipa.jpg",
-  },
-  {
-    name: "Mr. Ravi Kumar Varma",
-    title: "Project based Learning in Education and Learning New Technologies",
-    // department: "Professor Dept. of Computer Science & Applications",
-    institute: "Scientist, Space Applications Centre (SAC),ISRO, Ahmedabad.",
-    photo:
-      "https://res.cloudinary.com/dfje97i0k/image/upload/c_scale,h_400,w_400/v1679368726/crop-Isro_q0w6nw.jpg",
   },
 ];
 

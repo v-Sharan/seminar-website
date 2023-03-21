@@ -74,7 +74,7 @@ const Navbar = ({ children }) => {
                     } hover:btn-success hover:rounded-lg`
                   }
                 >
-                  <li className="btn btn-ghost">Committe</li>
+                  <li className="btn btn-ghost">Committee</li>
                 </NavLink>
                 <NavLink
                   to="/speakers"
@@ -132,7 +132,7 @@ const Navbar = ({ children }) => {
                 } hover:btn-primary hover:rounded-lg p-3`
               }
             >
-              <li>Committe</li>
+              <li>Committee</li>
             </NavLink>
             <NavLink
               to="/speakers"

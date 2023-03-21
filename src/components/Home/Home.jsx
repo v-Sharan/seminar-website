@@ -41,12 +41,16 @@ const Home = () => {
             src="https://res.cloudinary.com/dfje97i0k/image/upload/v1679278236/download_ussy7d.jpg"
             className="max-w-sm rounded-lg shadow-2xl"
           />
-          <div>
-            <h1 className="text-5xl font-bold">
-              Strategies for Quality Improvement in Higher Educational
-              Institutions
+          <div className="">
+            <h1 className="text-5xl font-bold leading-snug">
+              NAAC Approved State Level Seminar on&nbsp; "
+              <span className="text-cyan-700">
+                Strategies for Quality Improvement in Higher Educational
+                Institutions
+              </span>
+              "
             </h1>
-            <p className="py-6">
+            <p className="py-6 font-semibold text-xl">
               Organized by Internal Quality Assurance Cell of RMKCET on April 5
               - 6, 2023
             </p>
@@ -81,7 +85,7 @@ const Home = () => {
           </ul>
         </Card>
         <Card>
-          <h1 className="card-title text-secondary">Important Date</h1>
+          <h1 className="card-title text-secondary">Important Dates</h1>
           <div className="flex flex-col gap-4 text-gray-700">
             <ul className="font-semibold">
               <li>
