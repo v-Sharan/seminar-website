@@ -23,6 +23,7 @@ const Registration = () => {
           Registration Link:
         </h1>
         <a
+          target="_blank"
           className="link px-[3em] text-xl"
           href="https://forms.gle/bRCR4zbd3gUXkDXb7"
         >
