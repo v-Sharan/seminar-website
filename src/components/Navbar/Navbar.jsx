@@ -1,12 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import {
-  Logo,
-  NbaLogo,
-  NaacLogo,
-  TuvLogo,
-  Rmk27Logo,
-} from "../../assests";
+import { Logo, NbaLogo, NaacLogo, Rmk27Logo } from "../../assests";
 
 const Navbar = ({ children }) => {
   const [nav, setNav] = useState(false);
@@ -17,35 +11,28 @@ const Navbar = ({ children }) => {
         <div className="drawer-content flex flex-col">
           <div className="bg-primary flex gap-3 justify-center">
             <figure className="w-12">
-              <img src={Logo} alt="logo" />
+              <img src={NaacLogo} alt="logo" />
             </figure>
             <div className="pb-3 text-2xl font-semibold text-gray-200 uppercase">
               R.M.K College of Engineering and Technology
+              <span className="text-[15px] flex justify-center">
+                (AN AUTONOMOUS INSTITUTION)
+              </span>
             </div>
             <figure className="w-10">
               <div className="flex gap-3">
                 <img src={NbaLogo} alt="nba-logo" />
-                <img src={NaacLogo} alt="naac-logo" />
-                <img src={TuvLogo} alt="tuv-logo" />
                 <img src={Rmk27Logo} alt="rmk-25-logo" />
               </div>
             </figure>
           </div>
-          <div className="w-full navbar border-b bg-primary shadow-lg flex justify-center">
-            {/* <div className=" flex-1 px-2 mx-2  md:justify-center lg:justify-start sm:justify-center">
-              <Link
-                className="normal-case btn btn-ghost text-xl text-white cursor-pointer"
-                to="/"
-              >
-                SEMINAR
-              </Link>
-            </div> */}
+          <div className="w-full navbar border-b bg-primary shadow-lg flex lg:justify-center">
             <div className="flex-none text-white md:block lg:hidden">
               <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
                 {!nav && (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-5 w-5"
+                    className="h-5 w-5 flex justify-end"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -90,7 +77,7 @@ const Navbar = ({ children }) => {
                     } hover:btn-success hover:rounded-lg`
                   }
                 >
-                  <li className="btn btn-ghost">Speaker</li>
+                  <li className="btn btn-ghost">Resource Persons</li>
                 </NavLink>
                 <NavLink
                   to="/register-details"
@@ -148,7 +135,7 @@ const Navbar = ({ children }) => {
                 } hover:btn-primary hover:rounded-lg p-3`
               }
             >
-              <li>Speakers</li>
+              <li>Resource Persons</li>
             </NavLink>
             <NavLink
               to="/register-details"

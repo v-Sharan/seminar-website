@@ -4,9 +4,9 @@ const Speaker = [
   {
     name: "Dr. Edamana Prasad",
     title: "Excellence in Teaching and Learning",
-    department: "Professor, Department of Chemistry",
-    institute:
-      "Head/ Teaching Learning Process in Higher Education Sector,Indian Institute of Technology, Madras",
+    department: "Professor, Department of Chemistry,",
+    nextLine: "Head/ Teaching Learning Process in Higher Education Sector,",
+    institute: "Indian Institute of Technology, Madras",
     photo:
       "https://res.cloudinary.com/dfje97i0k/image/upload/c_scale,h_564,w_557/v1678706709/Edamana_zs0qsp.jpg",
   },
@@ -22,29 +22,28 @@ const Speaker = [
   {
     name: "Mr. Ravi Kumar Varma",
     title: "Project based Learning in Education and Learning New Technologies",
-    // department: "Professor Dept. of Computer Science & Applications",
     institute: "Scientist, Space Applications Centre (SAC),ISRO, Ahmedabad.",
     photo:
-    "https://res.cloudinary.com/dfje97i0k/image/upload/c_scale,h_400,w_400/v1679368726/crop-Isro_q0w6nw.jpg",
+      "https://res.cloudinary.com/dfje97i0k/image/upload/c_scale,h_400,w_400/v1679368726/crop-Isro_q0w6nw.jpg",
   },
   {
     name: "Dr.K.Ramar",
     title:
-    "Enriching Research Methodologies, Effective Journal Publications and Proposal Drafting",
+      "Enriching Research Methodologies, Effective Journal Publications and Proposal Drafting",
     department: "Principal",
     institute:
-    "R.M.K. College of Engieering and Technology, Puduvoyal, Thiruvallur",
+      "R.M.K. College of Engieering and Technology, Puduvoyal, Thiruvallur",
     photo:
-    "https://res.cloudinary.com/dfje97i0k/image/upload/c_scale,h_564,w_557/v1678706710/RAMAR_mo2eup.png",
+      "https://res.cloudinary.com/dfje97i0k/image/upload/c_scale,h_564,w_557/v1678706710/RAMAR_mo2eup.png",
   },
   {
     name: "Dr.K.Mourougayane",
     title: "Recent Research Trends",
     department:
-    "Programme Director (Projects) Scientist F, HoD DSP & EP Divisions,",
+      "Programme Director (Projects) Scientist F, HoD DSP & EP Divisions,",
     institute: "SAMEER - Centre for Electromagnetics, Chennai",
     photo:
-    "https://res.cloudinary.com/dfje97i0k/image/upload/v1678706709/Mourougayane_htbipa.jpg",
+      "https://res.cloudinary.com/dfje97i0k/image/upload/v1678706709/Mourougayane_htbipa.jpg",
   },
   {
     name: "Dr. S Renukadevi",
@@ -69,6 +68,7 @@ const Speakers = () => {
             <div className="card-body">
               <h2 className="card-title">{person.name}</h2>
               <p>{person.department}</p>
+              <p>{person.nextLine}</p>
               <p>{person.institute}</p>
               <h1 className="card-title font-bold">Title:</h1>
               <p className="text-xl font-semibold">{person.title}</p>

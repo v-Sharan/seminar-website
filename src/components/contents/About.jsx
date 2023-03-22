@@ -18,7 +18,7 @@ const Rules = [
   "Ranked 82 in the top 100 Colleges including IITs and NITs in the All India Survey 2015 conducted by Outlook Magazine",
   "Ranked 16th among the top 20 Engineering colleges in India in Placements by the Higher Education Review magazine 2016",
   "Ranked No.1 among the Top 20 Engineering Colleges in India with Excellent Industry Exposure by Higher Education Review Magazine, 2017",
-  "97th Rank in Outlook – Drshti ranking of Best Professional Colleges, 2018",
+  "Ranked 97th in Outlook – Drshti ranking of Best Professional Colleges, 2018",
   "Ranked 61st among the top 150 engineering institute in India by the Times Engineering Institute Ranking survey 2020",
 ];
 
