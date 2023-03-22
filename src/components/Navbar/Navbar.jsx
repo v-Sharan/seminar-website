@@ -15,8 +15,23 @@ const Navbar = ({ children }) => {
             </figure>
             <div className="pb-3 text-2xl font-semibold text-gray-200 uppercase">
               R.M.K College of Engineering and Technology
-              <span className="text-[15px] flex justify-center">
-                (AN AUTONOMOUS INSTITUTION)
+              <span className="text-[10px] flex leading-relaxed">
+                <div className="flex flex-col">
+                  <div className="flex justify-center">
+                    (AN AUTONOMOUS INSTITUTION)
+                  </div>
+                  <div className="flex justify-center">
+                    APPROVED BY AICTE, NEW DELHI AFFILIATED TO ANNA UNIVERSITY,
+                    CHENNAI.
+                  </div>
+                  <div className="flex justify-center">
+                    ALL ELIGIBLE PROGRAMS ACCREDITED BY NBA INSTITUTION
+                    ACCREDITED BY NAAC, R.S.M NAGAR, PUDUVOYAL,
+                  </div>
+                  <div className="flex justify-center">
+                    GUMMIDIPOONDI TALUK, TIRUVALLUR DISTRICT,601206.
+                  </div>
+                </div>
               </span>
             </div>
             <figure className="w-10">
