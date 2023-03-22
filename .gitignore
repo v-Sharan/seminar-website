@@ -13,8 +13,6 @@ dist
 dist-ssr
 *.local
 package-lock.json
-tailwind.config.cjs
-postcss.config.cjs
 
 # Editor directories and files
 .vscode/*

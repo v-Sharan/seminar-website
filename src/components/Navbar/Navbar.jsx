@@ -26,10 +26,11 @@ const Navbar = ({ children }) => {
                   </div>
                   <div className="flex justify-center">
                     ALL ELIGIBLE PROGRAMS ACCREDITED BY NBA INSTITUTION
-                    ACCREDITED BY NAAC, R.S.M NAGAR, PUDUVOYAL,
+                    ACCREDITED BY NAAC,
                   </div>
                   <div className="flex justify-center">
-                    GUMMIDIPOONDI TALUK, TIRUVALLUR DISTRICT,601206.
+                    R.S.M NAGAR, PUDUVOYAL, GUMMIDIPOONDI TALUK, TIRUVALLUR
+                    DISTRICT,601206.
                   </div>
                 </div>
               </span>
