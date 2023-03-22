@@ -1,6 +1,12 @@
 import React, { useState } from "react";
-import { NavLink, Link } from "react-router-dom";
-import { Logo, NbaLogo, NaacLogo, Rmk25Logo, TuvLogo } from "../../assests";
+import { NavLink } from "react-router-dom";
+import {
+  Logo,
+  NbaLogo,
+  NaacLogo,
+  TuvLogo,
+  Rmk27Logo,
+} from "../../assests";
 
 const Navbar = ({ children }) => {
   const [nav, setNav] = useState(false);
@@ -21,7 +27,7 @@ const Navbar = ({ children }) => {
                 <img src={NbaLogo} alt="nba-logo" />
                 <img src={NaacLogo} alt="naac-logo" />
                 <img src={TuvLogo} alt="tuv-logo" />
-                <img src={Rmk25Logo} alt="rmk-25-logo" />
+                <img src={Rmk27Logo} alt="rmk-25-logo" />
               </div>
             </figure>
           </div>
