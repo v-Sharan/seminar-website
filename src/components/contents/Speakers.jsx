@@ -34,7 +34,7 @@ const Speaker = [
     institute:
       "R.M.K. College of Engieering and Technology, Puduvoyal, Thiruvallur",
     photo:
-      "https://res.cloudinary.com/dfje97i0k/image/upload/c_scale,h_564,w_557/v1678706710/RAMAR_mo2eup.png",
+      "https://res.cloudinary.com/dfje97i0k/image/upload/c_scale,h_550,w_550/v1679489727/principal-new_hjovof.jpg",
   },
   {
     name: "Dr.K.Mourougayane",
