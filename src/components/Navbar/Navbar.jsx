@@ -15,7 +15,7 @@ const Navbar = ({ children }) => {
             </figure>
             <div className="pb-3 text-2xl font-semibold text-gray-200 uppercase">
               R.M.K College of Engineering and Technology
-              <span className="text-[10px] flex leading-relaxed">
+              <span className="text-[10px] flex justify-center leading-relaxed">
                 <div className="flex flex-col">
                   <div className="flex justify-center">
                     (AN AUTONOMOUS INSTITUTION)
