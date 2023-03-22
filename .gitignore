@@ -6,6 +6,7 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+.firebase
 
 node_modules
 dist
@@ -25,3 +26,5 @@ postcss.config.cjs
 *.njsproj
 *.sln
 *.sw?
+.firebaserc
+firebase.json
